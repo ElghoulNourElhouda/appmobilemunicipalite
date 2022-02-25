@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context="com.example.starinfo.hibaladiti.QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="QUIZ"
+            android:textColor="@color/colorPurple"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Score"
+            android:textColor="@color/colorBlue"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_gravity="right"
+            android:text="1.رخص البناء :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:id="@+id/g1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="right">
+
+            <RadioButton
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="راضي"
+                android:layout_gravity="right"/>
+
+            <RadioButton
+                android:id="@+id/b2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text=" غير راضي"
+                android:layout_gravity="right"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="2.التواصل مع البلدية :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_gravity="right"/>
+
+        <RadioGroup
+            android:id="@+id/g3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/b31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="راضي"
+                android:layout_gravity="right"/>
+
+            <RadioButton
+                android:id="@+id/b32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text=" غير راضي"
+                android:layout_gravity="right"/>
+
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="3.ترجمة المضامين :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_gravity="right"/>
+
+        <RadioGroup
+            android:id="@+id/g4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/b41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="راضي"
+                android:layout_gravity="right"/>
+
+            <RadioButton
+                android:id="@+id/b42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text=" غير راضي"
+                android:layout_gravity="right"/>
+
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="4.استغلال الأرصفة :"
+            android:layout_gravity="right"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:id="@+id/g5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="right">
+
+            <RadioButton
+                android:id="@+id/b51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="راضي"
+                android:layout_gravity="right"/>
+
+            <RadioButton
+                android:id="@+id/b52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text=" غير راضي"
+                android:layout_gravity="right"/>
+
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="5.مسالك ذوي الاحتياجات الخصوصية :"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_gravity="right"/>
+
+        <RadioGroup
+            android:id="@+id/g6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="right">
+
+            <RadioButton
+                android:id="@+id/b61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="راضي"
+                android:layout_gravity="right"/>
+
+            <RadioButton
+                android:id="@+id/b62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text=" غير راضي"
+                android:layout_gravity="right"/>
+
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="6.النفاذ إلى المعلومة :"
+            android:layout_gravity="right"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:id="@+id/g7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/b71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="راضي"
+                android:layout_gravity="right"/>
+
+            <RadioButton
+                android:id="@+id/b72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text=" غير راضي"
+                android:layout_gravity="right"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="7.الطرقات : "
+            android:layout_gravity="right"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <RadioGroup
+            android:id="@+id/g8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/b81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="راضي"
+                android:layout_gravity="right"/>
+
+            <RadioButton
+                android:id="@+id/b82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text=" غير راضي"
+                android:layout_gravity="right"/>
+
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/sub1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|left"
+            android:padding="16dp"
+            android:text="إرسال"
+            android:background="@drawable/bg_ui"/>
+    </LinearLayout>
+
+</ScrollView>

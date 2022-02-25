@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mede"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPurple"
+        android:textSize="25sp"
+        android:padding="10dp"/>
+
+
+    <Button
+        android:id="@+id/change_password_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="تغيير كلمة السر"
+        android:background="@drawable/bg_ui"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/change_email_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/bg_ui"
+        android:text="تغيير الايميل"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/delete_user_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/bg_ui"
+        android:text="مسح المستخدم"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/bg_ui"
+        android:text="خروج"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/bg_ui"
+        android:text="دخول"
+        android:textColor="@color/white" />
+
+</LinearLayout>
